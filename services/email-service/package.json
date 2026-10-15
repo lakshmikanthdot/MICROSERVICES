@@ -9,8 +9,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@tanuj_malode/common": "file:../shared/rabbitmq",
-    "@tanuj_malode/rabbitmq": "file:../shared/rabbitmq",
+    "@lucky/rabbitmq": "file:../shared/rabbitmq",
     "amqplib": "^0.10.3",
     "axios": "^1.6.2",
     "cors": "^2.8.5",

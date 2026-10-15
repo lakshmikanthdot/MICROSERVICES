@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Microservices-based Todo Application",
   "scripts": {
-    "install:all": "cd services/shared/rabbitmq && npm install && cd ../../user-service && npm install && cd ../todo-service && npm install && cd ../email-service && npm install"
+    "install:all": "cd services/shared/rabbitmq && npm install && npm run build && cd ../../user-service && npm install && cd ../todo-service && npm install && cd ../email-service && npm install"
   },
   "keywords": ["microservices", "todo", "nodejs", "typescript", "mongodb", "rabbitmq"],
   "author": "",
