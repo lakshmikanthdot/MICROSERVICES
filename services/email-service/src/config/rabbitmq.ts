@@ -1,4 +1,4 @@
-import RabbitMQClient from "@lucky/rabbitmq";
+import RabbitMQClient from "@tanuj_malode/rabbitmq";
 import { handleTodoCreated } from "../services/email.service";
 
 const rabbitMQ = new RabbitMQClient({

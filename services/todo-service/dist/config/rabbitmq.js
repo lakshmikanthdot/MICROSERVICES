@@ -9,7 +9,7 @@ exports.closeRabbitMQ =
   exports.connectRabbitMQ =
   exports.publishToQueue =
     void 0;
-const rabbitmq_1 = __importDefault(require("@lucky/rabbitmq"));
+const rabbitmq_1 = __importDefault(require("@tanuj_malode/rabbitmq"));
 const rabbitMQ = new rabbitmq_1.default({
   serviceName: "Todo Service",
   queues: ["todo_created"],

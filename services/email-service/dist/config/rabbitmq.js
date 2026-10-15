@@ -9,7 +9,7 @@ exports.closeRabbitMQ =
   exports.connectRabbitMQ =
   exports.consumeFromQueue =
     void 0;
-const rabbitmq_1 = __importDefault(require("@lucky/rabbitmq"));
+const rabbitmq_1 = __importDefault(require("@tanuj_malode/rabbitmq"));
 const email_service_1 = require("../services/email.service");
 const rabbitMQ = new rabbitmq_1.default({
   serviceName: "Todo Service",
