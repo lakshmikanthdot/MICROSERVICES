@@ -1,4 +1,4 @@
-import RabbitMQClient from "@lucky/rabbitmq";
+import RabbitMQClient from "@tanuj_malode/rabbitmq";
 
 const rabbitMQ = new RabbitMQClient({
   serviceName: "Todo Service",
